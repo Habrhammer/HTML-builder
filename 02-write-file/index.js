@@ -8,7 +8,7 @@ const readlineInterface = readline.createInterface({
   output: process.stdout,
 });
 
-process.stdout.write('Hello!');
+process.stdout.write('Hello! Write something...');
 
 readlineInterface.on('line', (input) => {
   if (input === 'exit') {
