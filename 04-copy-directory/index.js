@@ -29,4 +29,4 @@ async function copyDir() {
 
 copyDir()
   .then(() => console.log('Success!'))
-  .catch(console.error('Error!'));
+  .catch(() => console.error('Error!'));
